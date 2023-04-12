@@ -280,7 +280,8 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is what i found for your query {search}"
+        cap = f"Here is what i found for your query  {search} /n 🔗 Join : @Mafia_Links 🔗 ... /nTry To Forward This Message to Saved Messages or to our Friend 
+It will be deleted after 2 minutes"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
