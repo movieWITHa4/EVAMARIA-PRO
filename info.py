@@ -48,7 +48,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #maximum search result buttos count in number#
 MAX_RIST_BTNS = environ.get('MAX_RIST_BTNS', None)
-START_MESSAGE = environ.get('START_MESSAGE', "Hello ... {} 👋\n ✯ My Name is {bot}\n ✯ I Can Provide MOVIES,SERIES And Lot More\n ✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Mafia_Links\n ✯TEAM - @Mafia_Links)
+START_MESSAGE = environ.get('START_MESSAGE', "Hello ... {} 👋\n ✯ My Name is {bot}\n ✯ I Can Provide MOVIES,SERIES And Lot More\n ✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Mafia_Links\n ✯TEAM - @Mafia_Links")
 
 
 
